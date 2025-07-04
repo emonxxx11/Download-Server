@@ -7,7 +7,8 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const zipUrl = 'https://raw.githubusercontent.com/nafijdev/missionpay/main/missionpay.zip';
+const zipUrl = 'https://raw.githubusercontent.com/emonxxx11/zip-file-apk/main/MissionPay.zip';
+
 
 app.get('/download', async (req, res) => {
   try {
